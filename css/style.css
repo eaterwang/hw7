@@ -1,0 +1,220 @@
+html{
+	background-color:black; 
+	width: 100%;
+	border-width: 5px;
+	border-style: solid;
+	border-color: white; 
+}
+}
+
+* {
+	/*background-color: black;*/
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h4,h6,div,span {
+	color: white;
+}
+
+p {
+	font-size: 33px;
+}
+
+
+/*nav選單*/
+.navbar-brand img {
+	background-color: black;
+	height: 90px;
+}	
+
+button{
+	background-color: white;
+}
+
+.navbar{
+	background-color: black;
+	border-width: 5px;
+	border-style: solid;
+	border-color: white; 
+}
+
+/*banner*/
+.banner {
+	margin-top: 140px;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+
+
+/*關於我*/
+.about {
+	padding-top:100px;
+	background:black; 
+}
+
+.about img {
+	height: 100%;
+	box-shadow:2px 2px 4px gray;
+}
+
+.title {
+	color: #D9C2B0;
+	width:100%;
+	font-family: Cinzel;
+	font-size:20px;
+	font-weight: bold;
+}
+
+.title_line {
+	border-color:#D9C2B0;
+}
+
+.story{
+	height: 400px;
+	padding: 0px 0;
+	font-size: 18px;
+}
+
+.story span {
+	font-style: italic;
+	font-size: 50px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.title_line {
+	margin-bottom: 50px;
+}
+
+/*collections*/
+#section2{
+	padding-top:100px;
+	background-color: black;
+}
+
+.product {
+	background-color: black;
+	padding-bottom:70px;
+}
+.product .card {
+	background-color: black;
+	padding: 20px 10px;
+	margin-bottom: 10px;
+}
+.product img {
+	width:100%;
+	margin-bottom:20px;
+}
+
+.product img:hover {
+	opacity: 0.8;
+}
+
+p.product_name {
+	font-size: 20px;
+	background-color: black;
+	padding: 10px;
+}
+
+/*service*/
+#section3{
+	background-color: black;
+	padding-top: 100px;
+}
+
+.product {
+	background-color: black;
+	padding-bottom:70px;
+}
+
+.product img {
+	width:100%;
+	margin-bottom:20px;
+}
+
+.row .card img{
+	width: 100%;
+}
+
+/*聯絡我*/
+.contact {
+	height:750px;
+	padding-top: 100px;
+	background-image: url(../img/seventeen.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+
+.contact .title {
+	color:#D9C2B0;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+input[type=submit] {
+  background-color: #D9C2B0;
+  color: white;
+  cursor: pointer;
+  width: 200px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: black;
+}
+
+/*footer*/
+footer {
+	background-color: black;
+	border-top-width: 5px;
+	border-style: solid;
+	border-color: white;
+	padding:20px 0; 
+}
+
+footer p {
+	font-family: Cinzel;
+	font-size: 10px;
+	color: #D9C2B0;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
